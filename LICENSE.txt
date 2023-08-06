@@ -1,0 +1,45 @@
+SOFTWARE LICENSE AGREEMENT FOR WiseCoder
+
+1. DEFINITIONS
+   - "Software": includes the source code and corresponding documentation of the WiseCoder product.
+   - "Subscriber": an individual subscribing to the Licensor's channel https://www.youtube.com/channel/UCtR8VmXkOrt7TAlg-gQ8RRg 
+
+2. GRANT OF LICENSE
+   The Subscriber is hereby granted a non-exclusive, irrevocable (except as provided for termination), non-transferable license to use the Software under the following conditions:
+   - Solely for educational, research, or teaching purposes, including paid ones.
+   - Any other commercial or non-commercial usage is expressly prohibited.
+   
+3. RESTRICTIONS:
+   Licensee shall not:
+   a) Remove or alter any copyright or proprietary notices included in the Software.
+   b) Transfer, sublicense, or distribute the Software to any third party.
+
+4. OWNERSHIP:
+   Licensor retains all right, title, and interest in and to the Software, including all intellectual property rights. Licensee acknowledges that this Agreement does not grant any ownership rights to the Software.
+
+
+5. MODIFICATIONS AND CHANGES
+   Any modifications, changes, or derivatives of the Software must be made publicly available as Public Domain according to US jurisdiction, or with a license that has the same legal effect in relation to the Subscriber's country.
+
+6. TERMINATION
+   This license shall automatically terminate in the event of:
+   - Unsubscribing from the Licensor's channel;
+   - Any breach or violation of the terms and conditions contained in this License Agreement by the Subscriber.
+   The Licensor may also unilaterally terminate this license at any time without cause.
+
+7. DISCLAIMER OF WARRANTY
+   THE SOFTWARE IS PROVIDED "AS IS," WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT.
+
+8. LIMITATION OF LIABILITY
+   IN NO EVENT SHALL THE LICENSOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+9. GENERAL PROVISIONS
+   - This license is valid and enforceable only for the Subscribers of the Licensor's channel.
+   - This License Agreement shall be governed by and construed in accordance with the laws of Czech Republic.
+
+BY USING THIS SOFTWARE, YOU EXPRESS YOUR AGREEMENT TO THE ABOVE TERMS.
+
+If you do not agree with any part of this License Agreement, you may not use or copy this Software.
+
+DATE: 6.8.2023
+LICENSOR: Jakub Melka
