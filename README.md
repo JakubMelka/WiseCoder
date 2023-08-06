@@ -18,7 +18,7 @@ This project is exclusively for subscribers of my YouTube channel. All code modi
 On my YouTube channel, you'll find a series of tutorials to help you understand each part of this project. [Take a look here!](https://www.youtube.com/channel/UCtR8VmXkOrt7TAlg-gQ8RRg)
 
 ## :question: Need Help?
-If you have questions or need support, feel free to create a [new Issue](https://github.com/your-username/WiseCoder/issues) or contact me directly via [Email](Mgr.Jakub.Melka@gmail.com).
+If you have questions or need support, feel free to create a [new Issue](https://github.com/JakubMelka/WiseCoder/issues) or contact me directly via [Email](Mgr.Jakub.Melka@gmail.com).
 
 ## :star: Like WiseCoder?
 Star this repository and [subscribe on YouTube](https://www.youtube.com/channel/UCtR8VmXkOrt7TAlg-gQ8RRg) to stay in the loop!
