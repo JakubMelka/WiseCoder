@@ -19,11 +19,10 @@
 
 cmake_minimum_required(VERSION 3.5)
 
-project(WiseCoder LANGUAGES CXX)
+add_executable(Course03
+               bubble_sort.h
+               insert_sort.h
+               selection_sort.h
+               main.cpp)
 
-set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
-
-add_subdirectory(Course02)
-add_subdirectory(Course03)
-add_subdirectory(UnitTests)
+install(TARGETS Course03 LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR})
