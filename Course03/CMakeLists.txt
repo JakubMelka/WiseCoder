@@ -23,6 +23,9 @@ add_executable(Course03
                bubble_sort.h
                insert_sort.h
                selection_sort.h
+               merge_sort.h
+               quick_sort.h
+               heap_sort.h
                main.cpp)
 
 install(TARGETS Course03 LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR})

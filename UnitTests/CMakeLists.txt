@@ -29,8 +29,10 @@ add_executable(UnitTests
                custom_stack_ut.cpp
                custom_queue_ut.cpp
                custom_search_ut.cpp
+               course_03_ut.cpp
                )
 
 include_directories ("${PROJECT_SOURCE_DIR}/Course02")
+include_directories ("${PROJECT_SOURCE_DIR}/Course03")
 
 install(TARGETS UnitTests LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR})
