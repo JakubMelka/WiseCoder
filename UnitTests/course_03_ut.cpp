@@ -182,4 +182,26 @@ TEST_CASE("[sorting] heap sort")
     }
 }
 
+TEST_CASE("[sorting] heap sort v2 - empty / one element")
+{
+    std::vector<int> myVector;
+    course03::heap_sort_v2(myVector.begin(), myVector.end());
+    CHECK(myVector.empty());
+
+    myVector.push_back(1);
+    course03::heap_sort_v2(myVector.begin(), myVector.end());
+    CHECK(true);
+}
+
+TEST_CASE("[sorting] heap sort v2")
+{
+    std::vector<std::vector<int>> testNumberSequences = getTestNumbers();
+    for (std::vector<int>& numberSequence : testNumberSequences)
+    {
+        course03::heap_sort_v2(numberSequence.begin(), numberSequence.end());
+        CHECK(std::is_sorted(numberSequence.begin(), numberSequence.end()));
+    }
+}
+
+
 TEST_SUITE_END();

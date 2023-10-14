@@ -36,11 +36,11 @@ void heap_sort(Iterator begin, Iterator end, Comparator comparator = Comparator(
 template<typename Iterator, typename Comparator = std::less<typename std::iterator_traits<Iterator>::value_type>>
 void heap_sort_v2(Iterator begin, Iterator end, Comparator comparator = Comparator())
 {
-    auto parentIndex = [](std::size_t i) { return i / 1; };
-    auto childLeftIndex = [](std::size_t i) { return 2 * i; };
-    auto childRightIndex = [](std::size_t i) { return 2 * i + 1; };
+    auto parentIndex = [](std::ptrdiff_t i) { return (i - 1) / 2; };
+    auto childLeftIndex = [](std::ptrdiff_t i) { return 2 * i + 1; };
+    auto childRightIndex = [](std::ptrdiff_t i) { return 2 * i + 2; };
 
-    const std::size_t count = std::distance(begin, end);
+    const std::ptrdiff_t count = std::distance(begin, end);
 
     // Nothing to be sorted
     if (count <= 1)
@@ -48,14 +48,14 @@ void heap_sort_v2(Iterator begin, Iterator end, Comparator comparator = Comparat
         return;
     }
 
-    std::size_t lastHeapIndex = count - 1;
+    std::ptrdiff_t lastHeapIndex = count - 1;
 
-    auto bubbleDown = [&](std::size_t index)
+    auto bubbleDown = [&](std::ptrdiff_t index)
     {
         while (index <= lastHeapIndex)
         {
-            const std::size_t child1 = childLeftIndex(index);
-            const std::size_t child2 = childRightIndex(index);
+            const std::ptrdiff_t child1 = childLeftIndex(index);
+            const std::ptrdiff_t child2 = childRightIndex(index);
 
             const bool hasChild1 = child1 <= lastHeapIndex;
             const bool hasChild2 = child2 <= lastHeapIndex;
@@ -97,6 +97,10 @@ void heap_sort_v2(Iterator begin, Iterator end, Comparator comparator = Comparat
                     std::swap(value, valueLeftChild);
                     index = child1;
                 }
+                else
+                {
+                    return; // We are finished
+                }
             }
             else
             {
@@ -114,7 +118,7 @@ void heap_sort_v2(Iterator begin, Iterator end, Comparator comparator = Comparat
     // Perform sort
     while (lastHeapIndex > 0)
     {
-        std::swap(*begin, std::next(*begin, lastHeapIndex));
+        std::swap(*begin, *std::next(begin, lastHeapIndex));
         --lastHeapIndex;
         bubbleDown(0);
     }
